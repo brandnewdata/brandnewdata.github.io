@@ -36,10 +36,12 @@ body {
 }
 
 .page {
-  @include breakpoint($large) {
+  @include breakpoint($large) {                                                                                                                      
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    width: span(8 of 12); // calc(100% - #{$right-sidebar-width-narrow});
+    margin-right: span(2 fo 12); // 없던 변수
+    padding-left: gutter(0.5 of 12); // 없던 변수
+    padding-right: gutter(2 of 12);// $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
