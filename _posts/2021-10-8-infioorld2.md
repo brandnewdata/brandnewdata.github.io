@@ -6,6 +6,7 @@ tags: jekyll
 # 목차
 toc: true  
 toc_sticky: true 
+classes: wide
 ---
 GitHub Pages의 github.io 블로그 시작하기로 하였다.
 블로그 계획을 한번 세워보았다. h2 태그로 제목을 쓰면 TOC 테이블로 오른쪽 사이드바에 보여줄 수 있다. 블로그 계획을 한번 세워보았다. h2 태그로 제목을 쓰면 TOC 테이블로 오른쪽 사이드바에 보여줄 수 있다.
