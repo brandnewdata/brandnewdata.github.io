@@ -1,4 +1,4 @@
-# Front Matter
+# Front Matter toc:true
 ---
 date: 2019-01-25
 title: "Jekyll 첫번째 글"
